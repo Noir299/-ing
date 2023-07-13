@@ -34,3 +34,5 @@ int Min(int a,int b){
     if(a<b)return a;
     return b;
 }
+
+可以优化重复路径，在dfs函数中创建一个新二维数组来记录路径是否重复，返回已经计算过的路径值
